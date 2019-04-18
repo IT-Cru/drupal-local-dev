@@ -1,6 +1,6 @@
 <?php
 
-$databases['default']['default'] = array (
+$databases['default']['default'] = [
   'database' => 'drupal',
   'username' => 'drupal',
   'password' => 'drupal',
@@ -9,4 +9,6 @@ $databases['default']['default'] = array (
   'port' => '',
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',
-);
+];
+
+$settings['hash_salt'] = 'IT-Cru/drupal_local_dev4travisCI';

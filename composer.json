@@ -67,6 +67,12 @@
     },
     "extra": {
         "composer-exit-on-patch-failure": true,
+        "enable-patching": true,
+        "patches": {
+            "drupal/core": {
+                "fix PsrHttpMessage is deprecated message": "https://www.drupal.org/files/issues/2019-03-28/3039584-18-reroll8.6.patch"
+            }
+        },
         "patchLevel": {
             "drupal/core": "-p2"
         },

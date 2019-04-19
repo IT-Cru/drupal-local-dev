@@ -1,12 +1,12 @@
 {
-    "name": "drupal-composer/drupal-project",
-    "description": "Project template for Drupal 8 projects with composer",
+    "name": "it-cru/drupal-local-dev",
+    "description": "Drupal Local Development (short: DLD) provides an easy to use local Drupal development setup.",
     "type": "project",
     "license": "GPL-2.0-or-later",
     "authors": [
         {
-            "name": "",
-            "role": ""
+            "name": "Steffen Schlaer",
+            "role": "Maintainer"
         }
     ],
     "repositories": [

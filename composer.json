@@ -1,18 +1,22 @@
 {
     "name": "it-cru/drupal-local-dev",
-    "description": "Project template for Drupal 8 projects with composer",
+    "description": "Drupal Local Development (short: DLD) provides an easy to use local Drupal development setup.",
     "type": "project",
     "license": "GPL-2.0-or-later",
     "authors": [
         {
-            "name": "",
-            "role": ""
+            "name": "Steffen Schlaer",
+            "role": "Maintainer"
         }
     ],
     "repositories": [
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
         }
     ],
     "require": {
@@ -76,9 +80,13 @@
         "patchLevel": {
             "drupal/core": "-p2"
         },
+        "installer-types": ["bower-asset"],
         "installer-paths": {
             "web/core": ["type:drupal-core"],
-            "web/libraries/{$name}": ["type:drupal-library"],
+            "web/libraries/{$name}": [
+                "type:drupal-library",
+                "type:bower-asset"
+            ],
             "web/modules/contrib/{$name}": ["type:drupal-module"],
             "web/profiles/contrib/{$name}": ["type:drupal-profile"],
             "web/themes/contrib/{$name}": ["type:drupal-theme"],

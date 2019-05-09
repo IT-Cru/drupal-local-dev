@@ -1,0 +1,19 @@
+uuid: 82e12b72-9706-4732-bcd3-6ab81dd6d8bc
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+_core:
+  default_config_hash: AnckAbLZ6Z3jVxn36Fesx7xbkubfANzhHN0hcna0mfs
+name: twitter
+label: Twitter
+effects:
+  6995bd89-7c15-49fa-8644-b745acc46a5c:
+    uuid: 6995bd89-7c15-49fa-8644-b745acc46a5c
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 1024
+      height: 512
+      crop_type: focal_point

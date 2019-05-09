@@ -16,6 +16,7 @@ env:
   global:
     - COMPOSER_MEMORY_LIMIT=-1
     - DRUPAL_BASE_URL="http://127.0.0.1:8080"
+    - DB_DUMP_URL="https://github.com/IT-Cru/drupal-local-dev/raw/distribution/thunder/db-dump/drupal8_thunder_profile.sql"
   matrix:
     - JOB=job:check-coding-standards
     - JOB=job:run-unit-tests

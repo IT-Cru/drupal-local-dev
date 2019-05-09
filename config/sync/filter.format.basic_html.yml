@@ -1,11 +1,11 @@
-uuid: 4037ff6e-1dea-466f-9b44-feaa25924fa9
+uuid: 55f46fcb-d9c2-4624-b484-98dbb812d340
 langcode: en
 status: true
 dependencies:
   module:
     - editor
 _core:
-  default_config_hash: P8ddpAIKtawJDi5SzOwCzVnnNYqONewSTJ6Xn0dW_aQ
+  default_config_hash: yt80gIjtiH2qaJOicXjSJuoa2L2Je7YldhBNZLxMHJY
 name: 'Basic HTML'
 format: basic_html
 weight: 0
@@ -16,7 +16,7 @@ filters:
     status: true
     weight: -10
     settings:
-      allowed_html: '<a href hreflang> <em> <strong> <cite> <blockquote cite> <code> <ul type> <ol start type> <li> <dl> <dt> <dd> <h2 id> <h3 id> <h4 id> <h5 id> <h6 id> <p> <br> <span> <img src alt height width data-entity-type data-entity-uuid data-align data-caption>'
+      allowed_html: '<em> <strong> <cite> <blockquote cite> <code> <ul type> <ol start type> <li> <dl> <dt> <dd> <h2 id> <h3 id> <h4 id> <h5 id> <h6 id> <p> <br> <span> <img src alt height width data-entity-type data-entity-uuid data-align data-caption> <a href hreflang !href accesskey id rel target title>'
       filter_html_help: false
       filter_html_nofollow: false
   filter_align:

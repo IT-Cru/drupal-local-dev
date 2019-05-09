@@ -1,0 +1,27 @@
+uuid: 21484047-222b-4653-abc7-c6844e045e9c
+langcode: en
+status: true
+dependencies:
+  module:
+    - crop
+    - media_entity_image
+    - media_expire
+third_party_settings:
+  crop:
+    image_field: field_image
+  media_expire:
+    expire_field: field_expires
+    enable_expiring: 1
+    fallback_media: null
+_core:
+  default_config_hash: W9gLAhlOPET785jGkeCGs69FD2Udi2tLTLL7pk0xGhM
+id: image
+label: Image
+description: ''
+type: image
+queue_thumbnail_downloads: false
+new_revision: false
+type_configuration:
+  source_field: field_image
+  gather_exif: false
+field_map: {  }

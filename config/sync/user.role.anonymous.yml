@@ -1,16 +1,19 @@
-uuid: 75c79cd7-cb62-4f41-b895-4ba335bcf1dd
+uuid: 81247bec-e37f-4806-9ac2-3c649f785028
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
+  default_config_hash: YNwZhabAcFeIPfZsXVuj6z69TPmgR4FXmT9Ue9x2gXg
 id: anonymous
 label: 'Anonymous user'
-weight: 0
+weight: -10
 is_admin: false
 permissions:
-  - 'access comments'
   - 'access content'
-  - 'access site-wide contact form'
-  - 'search content'
+  - 'access user profiles'
+  - 'access_unpublished node article'
+  - 'opt-in or out of tracking'
   - 'use text format restricted_html'
+  - 'view media'
+  - 'view published terms in channel'
+  - 'view published terms in tags'

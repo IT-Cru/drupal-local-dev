@@ -1,4 +1,4 @@
-uuid: 6479992b-f0d6-4440-abc0-6ceda7a02206
+uuid: ffa9742b-eed1-4243-aa8c-4bf6863e0c3b
 langcode: en
 status: true
 dependencies:
@@ -7,7 +7,7 @@ dependencies:
   module:
     - ckeditor
 _core:
-  default_config_hash: AqlPmO16LvJI4D0Ih6u4GFQIzqr5OnLgAUSjcUGWk2g
+  default_config_hash: I8GHTzNXDDVPdAAELDy-9vnxNFtxctYfdXN7_Wmhv_4
 format: basic_html
 editor: ckeditor
 settings:
@@ -22,7 +22,7 @@ settings:
         -
           name: Linking
           items:
-            - DrupalLink
+            - Linkit
             - DrupalUnlink
         -
           name: Lists
@@ -45,11 +45,13 @@ settings:
   plugins:
     stylescombo:
       styles: ''
+    linkit:
+      linkit_profile: basic_html
 image_upload:
   status: true
   scheme: public
   directory: inline-images
   max_size: ''
   max_dimensions:
-    width: 0
-    height: 0
+    width: null
+    height: null

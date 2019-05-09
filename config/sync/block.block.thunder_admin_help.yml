@@ -1,0 +1,22 @@
+uuid: 879538f0-605d-49af-98e7-7421805e0075
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - thunder_admin
+_core:
+  default_config_hash: TL6q516s2v_4BEkDfuZIzuixM4asqdJZoXsXoiMTNB0
+id: thunder_admin_help
+theme: thunder_admin
+region: help
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

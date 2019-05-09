@@ -1,0 +1,26 @@
+uuid: 84508726-cc56-46d0-95a3-b0baa4d8b110
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.instagram.field_media
+    - paragraphs.paragraphs_type.instagram
+_core:
+  default_config_hash: CJ_VjHfVr820e9xkBcnkG7w-oKBmMbI4DahE4Y_GkzQ
+id: paragraph.instagram.default
+targetEntityType: paragraph
+bundle: instagram
+mode: default
+content:
+  field_media:
+    type: entity_reference_entity_view
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  uid: true

@@ -1,4 +1,4 @@
-uuid: fa3fcb49-4904-4b90-a811-26181ec37e52
+uuid: b9ab81ae-03db-45d5-a03b-dc1117dd4cda
 langcode: en
 status: true
 dependencies:
@@ -7,13 +7,13 @@ dependencies:
     - node.type.article
     - taxonomy.vocabulary.tags
 _core:
-  default_config_hash: QdUgf_beeoaPiyKorFv0q1fcJpWH_uZTqe_xoVJacrw
+  default_config_hash: '-mDIywXCMANjsNcEWh83SP7Pi7HOHoLCMKw9oRvpp5c'
 id: node.article.field_tags
 field_name: field_tags
 entity_type: node
 bundle: article
 label: Tags
-description: 'Enter a comma-separated list. For example: Amsterdam, Mexico City, "Cleveland, Ohio"'
+description: 'Multiple tags can be separated with (,) comma. Tags can be modified <a href="/admin/structure/taxonomy/manage/tags/overview" target="_blank">here</a>.'
 required: false
 translatable: true
 default_value: {  }

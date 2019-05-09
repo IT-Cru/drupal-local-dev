@@ -1,28 +1,53 @@
-uuid: 9136725a-8ab8-460f-b08f-4b245e6d0caa
+uuid: 77aa1d09-d94d-4760-b3f8-55c2c9765034
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.rss
-    - field.field.node.article.body
-    - field.field.node.article.comment
-    - field.field.node.article.field_image
+    - field.field.node.article.field_channel
+    - field.field.node.article.field_meta_tags
+    - field.field.node.article.field_paragraphs
+    - field.field.node.article.field_seo_title
     - field.field.node.article.field_tags
+    - field.field.node.article.field_teaser_media
+    - field.field.node.article.field_teaser_text
     - node.type.article
   module:
     - user
 _core:
-  default_config_hash: 2rIr6K5Q0UQ9khg0zE_CK-PtJH76UL-BDDZcZnZzwCc
+  default_config_hash: 7rUmttvrmjE4eruLY1S2UnG7VuPwL_Z9tA0AvJhRU20
 id: node.article.rss
 targetEntityType: node
 bundle: article
 mode: rss
 content:
+  field_channel:
+    type: entity_reference_label
+    weight: 0
+    label: inline
+    settings:
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_teaser_media:
+    type: entity_reference_entity_view
+    weight: 1
+    label: inline
+    settings:
+      view_mode: square_m
+      link: false
+    third_party_settings: {  }
+    region: content
   links:
-    weight: 100
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
     region: content
 hidden:
-  body: true
-  comment: true
-  field_image: true
+  field_meta_tags: true
+  field_paragraphs: true
+  field_seo_title: true
   field_tags: true
+  field_teaser_text: true
+  langcode: true
+  shariff_field: true

@@ -1,4 +1,4 @@
-admin: seven
-default: bartik
+admin: thunder_admin
+default: thunder_base
 _core:
-  default_config_hash: fOjer9hADYYnbCJVZMFZIIM1azTFWyg84ZkFDHfAbUg
+  default_config_hash: bacivQvqSwSyH-E0-GX2e0VkBB5u79QmMiFP5kFd9Rs

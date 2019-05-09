@@ -1,19 +1,20 @@
-uuid: b73bbc1c-1a95-4ce1-a4f6-6fe7b5e7e9df
+uuid: e3b7bf61-4372-49a3-83fb-66faffe710e4
 langcode: en
 status: true
 dependencies: {  }
 _core:
-  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
+  default_config_hash: 3O0KivFBGa2KZ87o1MPpkyh5FtmbVP05nQQXq-eSNZk
 id: authenticated
 label: 'Authenticated user'
-weight: 1
+weight: -9
 is_admin: false
 permissions:
-  - 'access comments'
   - 'access content'
-  - 'access shortcuts'
-  - 'access site-wide contact form'
-  - 'post comments'
-  - 'search content'
-  - 'skip comment approval'
+  - 'access user profiles'
+  - 'access_unpublished node article'
+  - 'cancel account'
+  - 'change own username'
   - 'use text format basic_html'
+  - 'view media'
+  - 'view published terms in channel'
+  - 'view published terms in tags'

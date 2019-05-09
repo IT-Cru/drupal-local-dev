@@ -25,7 +25,7 @@
         "cweagans/composer-patches": "^1.6.5",
         "drupal-composer/drupal-scaffold": "^2.5",
         "drupal/console": "^1.0.2",
-        "drupal/core": "^8.6.0",
+        "drupal/core": "^8.7.0",
         "drush/drush": "^9.0.0",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",
@@ -39,7 +39,7 @@
         "drupal/coder": "^8.2",
         "drupal/drupal-extension": "master-dev",
         "php-coveralls/php-coveralls": "^2.1",
-        "webflo/drupal-core-require-dev": "^8.6.0"
+        "webflo/drupal-core-require-dev": "^8.7.0"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -72,11 +72,7 @@
     "extra": {
         "composer-exit-on-patch-failure": true,
         "enable-patching": true,
-        "patches": {
-            "drupal/core": {
-                "fix PsrHttpMessage is deprecated message": "https://www.drupal.org/files/issues/2019-03-28/3039584-18-reroll8.6.patch"
-            }
-        },
+        "patches": {},
         "patchLevel": {
             "drupal/core": "-p2"
         },

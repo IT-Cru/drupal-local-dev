@@ -27,6 +27,7 @@
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.7.0",
         "drush/drush": "^9.0.0",
+        "oomphinc/composer-installers-extender": "^1.1",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3",
@@ -40,6 +41,16 @@
         "drupal/drupal-extension": "master-dev",
         "php-coveralls/php-coveralls": "^2.1",
         "webflo/drupal-core-require-dev": "^8.7.0"
+    },
+    "replace": {
+        "bower-asset/jquery": "*",
+        "bower-asset/jqueryui": "*",
+        "bower-asset/backbone": "*",
+        "bower-asset/underscore": "*",
+        "npm-asset/jquery": "*",
+        "npm-asset/jqueryui": "*",
+        "npm-asset/backbone": "*",
+        "npm-asset/underscore": "*"
     },
     "conflict": {
         "drupal/drupal": "*"

@@ -1,5 +1,7 @@
 # Drupal Local Development (short: DLD)
 
+[![Build Status](https://travis-ci.org/IT-Cru/drupal-local-dev.svg?branch=master)](https://travis-ci.org/IT-Cru/drupal-local-dev)
+
 Provides a local Drupal development setup based on DDEV, drupal-composer/drupal-project and
 Lullabot/drupal8ci.
 
